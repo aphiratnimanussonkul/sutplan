@@ -44,6 +44,7 @@ class Authentication extends Component {
                 alt="profile picture"
                 src={firebase.auth().currentUser.photoURL}
             />
+            {/* <div>test</div> */}
           </span>
                 ) : (
                     <StyledFirebaseAuth
